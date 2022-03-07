@@ -1,4 +1,5 @@
 @import '../base/variables';
+@import '../base/extends';
 
 .photo-gallery {
     color:#313437;
@@ -41,5 +42,33 @@
   .photo-gallery .item {
     padding-bottom:30px;
   }
-  
-  
+  .buton {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+
+  }
+  .circlee {
+    border-radius: $circular;
+    
+  }
+  .buton {
+    margin: 10px;
+  }
+  .efecto-boton {
+    border-radius: $cicular-boton;
+    background-color: darken($bg-color-general, 5%);
+}
+.texto {
+  text-decoration: none;
+}
+.rowss {
+  @extend %flexgal;
+}
+.contenedor {
+  display: grid;
+  grid-template-rows: auto;
+}
+.flex-gal {
+  @extend %flexgal;
+}
