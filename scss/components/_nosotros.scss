@@ -4,3 +4,6 @@
 .circlee {
     border-radius: $circular;
 }
+.font {
+    @include fonts(18px);
+}

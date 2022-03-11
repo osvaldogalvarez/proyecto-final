@@ -28,6 +28,10 @@ body {
   border-radius: 20px;
 }
 
+.font {
+  font-size: 18px;
+}
+
 .flex-productos {
   display: flex;
   flex-direction: row;
@@ -141,6 +145,16 @@ body {
 .contenedor {
   display: grid;
   grid-template-rows: auto;
+}
+
+.testdeco {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+}
+
+.font {
+  font-size: 18px;
 }
 
 footer {

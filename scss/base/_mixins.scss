@@ -4,6 +4,8 @@
 }
     
 
-
+@mixin fonts ($fuente) {
+    font-size: $fuente;
+}
 
   

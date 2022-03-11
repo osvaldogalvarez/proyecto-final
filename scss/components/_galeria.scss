@@ -72,3 +72,8 @@
 .flex-gal {
   @extend %flexgal;
 }
+.testdeco {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+}
