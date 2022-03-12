@@ -25,11 +25,22 @@ body {
 }
 
 .circlee {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .font {
   font-size: 18px;
+}
+
+.imgs {
+  box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.imgs:hover {
+  transform: scale(1.2);
 }
 
 .flex-productos {
@@ -57,7 +68,7 @@ body {
   }
 }
 .circlee {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .flex-button {
@@ -126,7 +137,7 @@ body {
 }
 
 .circlee {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .buton {
@@ -151,6 +162,11 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: end;
+}
+
+.btns:hover {
+  background-color: #c4c5e6;
+  color: white;
 }
 
 .font {
