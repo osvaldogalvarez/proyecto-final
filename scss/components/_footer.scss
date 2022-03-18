@@ -5,21 +5,16 @@
   footer {
     display: inline;
     text-align: center;
+    width: 100vh;
     
-
 }
 .color-gen {
     background-color: darken($color-general, 3%);
 }
-.border-foot {
-    border: $border;
-}
+/* .border-foot {
+    border: $border; 
+}*/
 
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .redes {
      text-align: center;
 }

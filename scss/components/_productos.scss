@@ -37,3 +37,9 @@
 .parra {
     @include colores(rgb(14, 53, 14));
 }
+.colorbas {
+    background-color: $bg-color-general;
+}
+p {
+    font-family:"Open+Sans&family=Roboto", sans-serif;
+}

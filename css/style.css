@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto:wght@300&display=swap");
 body {
   background-color: #edeef5;
 }
@@ -8,6 +11,20 @@ body {
 
 .color-sub {
   color: blueviolet;
+}
+
+h1 {
+  font-family: "Open+Sans:ital,wght@0,400;1,600&family=Roboto", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Open+Sans&family=Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Open+Sans&family=Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .carousel-item {
@@ -82,6 +99,14 @@ body {
 
 .parra {
   color: #0e350e;
+}
+
+.colorbas {
+  background-color: #edeef5;
+}
+
+p {
+  font-family: "Open+Sans&family=Roboto", sans-serif;
 }
 
 .flex-gal, .rowss {
@@ -169,6 +194,32 @@ body {
   color: white;
 }
 
+.color-sub {
+  color: blueviolet;
+}
+
+.hover13 figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .font {
   font-size: 18px;
 }
@@ -176,22 +227,16 @@ body {
 footer {
   display: inline;
   text-align: center;
+  width: 100vh;
 }
 
 .color-gen {
   background-color: #e3e5f0;
 }
 
-.border-foot {
-  border: 2px solid black;
-}
-
-iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* .border-foot {
+    border: $border; 
+}*/
 .redes {
   text-align: center;
 }
